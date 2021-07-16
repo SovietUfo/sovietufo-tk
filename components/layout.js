@@ -5,7 +5,7 @@ export default function Layout({children}) {
     return (
         <>
             <Header />
-            <main>{children}</main>
+            <main className="bg-gradient-to-r from-red-400 to-blue-600">{children}</main>
             <Footer />
         </>
     )
