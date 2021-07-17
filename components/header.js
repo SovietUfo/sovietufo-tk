@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Header() {
     return (
-        <nav className="flex items-center bg-gray-900 p-4 text-white space-x-6 sticky">
+        <nav className="flex items-center bg-gray-900 p-4 text-white space-x-6 sticky mb-16">
             <div className="flex items-center flex-shrink-0 mr-6">
                 <Image src="/favicon.ico" width="40" height="40" alt=""></Image>
                 <span className="text-2xl tracking-tight ml-2 mr-6">sovietufo.tk</span>

@@ -8,9 +8,11 @@ export default function Layout({children}) {
             <Head>
                 <title>sovietufo.tk</title>
             </Head>
-            <Header />
-            <main className="bg-gray-600">{children}</main>
-            <Footer />
+            <body className="bg-red-600">
+                <Header />
+                <main>{children}</main>
+                <Footer />
+            </body>
         </>
     )
 }
