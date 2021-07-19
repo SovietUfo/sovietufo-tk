@@ -7,18 +7,27 @@
         @apply flex items-center bg-black p-4 text-white space-x-6 sticky mb-16
     }
     button {
-        @apply px-4 py-2 text-lg bg-gray-700 border rounded hover:bg-white hover:border-transparent hover:text-black transition
+        @apply px-4 py-2 text-lg bg-gray-50 text-black rounded hover:bg-black hover:text-gray-50 transition
     }
     h1 {
-        @apply text-center text-white text-3xl
+        @apply text-center text-black text-3xl
     }
     a {
         @apply hover:text-blue-500 hover:underline transition
     }
     ul {
-        @apply text-center text-white text-2xl
+        @apply text-center text-black text-2xl
     }
     li {
         @apply my-4
+    }
+    body {
+        @apply bg-gray-50
+    }
+    footer {
+        @apply bg-black absolute inset-x-0 bottom-0 p-4 text-white text-center
+    }
+    p {
+        @apply text-center text-xl
     }
 }

@@ -8,7 +8,7 @@ export default function Layout({children}) {
             <Head>
                 <title>sovietufo.tk</title>
             </Head>
-            <body className="bg-gray-800">
+            <body>
                 <Header />
                 <main>{children}</main>
                 <Footer />
