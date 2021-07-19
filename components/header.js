@@ -6,8 +6,7 @@ export default function Header() {
         <nav>
             <div className="flex items-center flex-shrink-0 mr-6">
                 <Image src="/favicon.ico" width="40" height="40" alt=""></Image>
-                <Link href="/"><a className="text-2xl tracking-tight ml-2 mr-6">sovietufo.tk</a></Link>
-                <span className="text-lg tracking-tight">the most swag website ever made</span>
+                <Link href="/" passHref><Image src="/logo.gif" alt="sovietufo.tk" height="45" width="135" className="cursor-pointer"/></Link>
             </div>
             <div className="flex-grow"></div>
             <Link href="/about" className="flex-none" passHref><button>About</button></Link>
