@@ -12,6 +12,7 @@ export default function Header() {
             <Link href="/about" className="flex-none" passHref><button>About</button></Link>
             <Link href="/projects" className="flex-none" passHref><button>My projects</button></Link>
             <Link href="/contact" className="flex-none" passHref><button>Contact</button></Link>
+            
         </nav>
     )
 }

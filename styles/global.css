@@ -4,10 +4,10 @@
 
 @layer base {
     nav {
-        @apply flex items-center bg-black p-4 text-white space-x-6 sticky mb-16
+        @apply lg:flex items-center bg-black lg:p-4 text-white lg:space-x-6 sticky mb-16
     }
     button {
-        @apply px-4 py-2 text-lg bg-gray-50 text-black rounded hover:bg-black hover:text-gray-50 transition flex-shrink-0
+        @apply lg:px-4 py-2 text-lg bg-black lg:bg-gray-50 text-gray-50 lg:text-black lg:rounded hover:bg-gray-50 lg:hover:bg-black hover:text-black lg:hover:text-gray-50 transition flex-shrink-0 w-full lg:w-auto
     }
     h1 {
         @apply text-center text-black text-3xl
@@ -16,7 +16,7 @@
         @apply hover:text-blue-500 hover:underline transition
     }
     ul {
-        @apply text-center text-black text-2xl list-disc
+        @apply text-center text-black text-2xl list-disc list-inside
     }
     li {
         @apply my-4
