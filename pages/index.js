@@ -6,7 +6,7 @@ export default function Home() {
         <Layout>
             <h1 className="mb-16">the swaggest site on the internet</h1>
             <div className="flex justify-center mx-4">
-                <Image src="/images/floppa.jpg" alt="" height="300" width="1000" className="rounded"/>
+                <Image src="/images/floppa.jpg" alt="" height="300" width="1000" className="rounded-lg"/>
             </div>
         </Layout>
   )

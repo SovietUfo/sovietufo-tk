@@ -10,24 +10,24 @@
         @apply lg:px-4 py-2 text-lg bg-black lg:bg-gray-50 text-gray-50 lg:text-black lg:rounded hover:bg-gray-50 lg:hover:bg-black hover:text-black lg:hover:text-gray-50 transition flex-shrink-0 w-full lg:w-auto
     }
     h1 {
-        @apply text-center text-black text-3xl
+        @apply text-center text-white text-3xl
     }
     a {
         @apply hover:text-blue-500 hover:underline transition
     }
     ul {
-        @apply text-center text-black text-2xl list-disc list-inside
+        @apply text-center text-white text-2xl list-disc list-inside
     }
     li {
         @apply my-4
     }
     body {
-        @apply bg-gray-50
+        @apply bg-gray-800
     }
     footer {
         @apply bg-black absolute inset-x-0 bottom-0 p-4 text-white text-center
     }
     p {
-        @apply text-center text-xl
+        @apply text-center text-xl text-white
     }
 }
