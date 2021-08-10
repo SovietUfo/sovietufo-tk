@@ -9,9 +9,9 @@ export default function Header() {
                 <Link href="/" passHref><Image src="/images/logo.gif" alt="sovietufo.tk" height="45" width="135" className="cursor-pointer"/></Link>
             </div>
             <div className="flex-grow"></div>
-            <Link href="/about" className="flex-none" passHref><button>About</button></Link>
-            <Link href="/projects" className="flex-none" passHref><button>My projects</button></Link>
-            <Link href="/contact" className="flex-none" passHref><button>Contact</button></Link>
+            <Link href="/about" passHref><button className="flex-none">About</button></Link>
+            <Link href="/projects" passHref><button className="flex-none">My projects</button></Link>
+            <Link href="/contact" passHref><button className="flex-none">Contact</button></Link>
             
         </nav>
     )
