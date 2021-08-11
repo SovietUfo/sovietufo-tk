@@ -22,10 +22,10 @@
         @apply my-4
     }
     body {
-        @apply bg-indigo-900
+        @apply bg-[#3f1680]
     }
     footer {
-        @apply bg-[#1a0936] absolute inset-x-0 bottom-0 p-4 text-purple-500 text-center
+        @apply bg-[#1a0936] absolute inset-x-0 bottom-0 p-4 text-purple-500 text-center lg:hover:text-xl transition-all duration-200 ease-linear
     }
     p {
         @apply text-center text-xl text-white
