@@ -1,6 +1,11 @@
-
+import {useEffect} from "react"
 
 export default function Contact() {
+
+    useEffect(() => {
+        document.title = "Contact"
+    })
+
     return (
         <>
             <h1>you can find me on:</h1>

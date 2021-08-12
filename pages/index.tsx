@@ -1,6 +1,12 @@
 import Image from 'next/image'
+import {useEffect} from "react"
 
 export default function Home() {
+
+    useEffect(() => {
+        document.title = "sovietufo.tk"
+    })
+
     return (
         <>
             <h1 className="mb-16">the swaggest site on the internet</h1>

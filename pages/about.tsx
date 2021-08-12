@@ -1,6 +1,12 @@
 import Image from "next/image"
+import {useEffect} from "react"
 
 export default function About() {
+
+    useEffect(() => {
+        document.title = "About me"
+    })
+
     return (
         <>
             <div className="flex justify-center mx-4 mb-4">
