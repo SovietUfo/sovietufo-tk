@@ -4,7 +4,12 @@ class CustomDocument extends Document {
     render() {
         return (
             <Html lang="en">
-                <Head />
+                <Head>
+                    <meta name="description" content="big floppa my beloved" />
+                    <meta name="theme-color" content="#1a0936" />
+                    <meta property="og:title" content="sovietufo.tk" />
+                    <meta property="og:type" content="website" />
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
