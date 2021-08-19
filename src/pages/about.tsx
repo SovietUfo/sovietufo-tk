@@ -20,7 +20,7 @@ export default function About() {
                 <Image src="/images/cta.jpg" width="150" height="150" alt="" className="rounded-lg"/>
             </div>
             <h1 className="mb-4">hi</h1>
-            <p>I&apos;m a {getAge()} years old cool person from poland that&apos;s trying to be good in development</p>
+            <p>I&apos;m a {getAge()} years old sigma male from poland that&apos;s trying to be good in development</p>
         </>
     )
 }
