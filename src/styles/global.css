@@ -6,7 +6,7 @@
     nav {
         @apply lg:flex items-center bg-[#1a0936] lg:p-4 sticky mb-16 justify-between
     }
-    button {
+    .navButton {
         @apply lg:px-3 py-2 text-lg bg-[#1a0936] lg:bg-indigo-700 lg:border lg:hover:border-opacity-20 text-purple-700 lg:text-purple-300 lg:rounded hover:bg-purple-700 lg:hover:bg-opacity-0 hover:text-[#1a0936] lg:hover:text-indigo-700 transition flex-shrink-0 w-full lg:w-auto
     }
     h1 {
