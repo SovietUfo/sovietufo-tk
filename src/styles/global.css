@@ -16,7 +16,7 @@
         @apply hover:text-blue-500 hover:underline transition
     }
     ul {
-        @apply text-center text-white text-2xl list-disc list-inside
+        @apply text-center text-white text-2xl
     }
     li {
         @apply my-4
