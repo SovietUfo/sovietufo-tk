@@ -25,7 +25,7 @@
         @apply bg-[#3f1680]
     }
     footer {
-        @apply bg-[#1a0936] fixed inset-x-0 bottom-0 p-4 text-purple-500 text-center lg:hover:text-xl lg:hover:text-purple-300 transition-all duration-200 ease-in
+        @apply bg-[#1a0936] fixed inset-x-0 bottom-0 p-4 text-purple-300 text-center
     }
     p {
         @apply text-center text-xl text-white
