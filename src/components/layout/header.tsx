@@ -21,7 +21,7 @@ export default function Header() {
                 </div>
                 <button onClick={toggleVisibility} className="cursor-pointer"><BsList className="lg:hidden h-10 w-10 m-3 text-white"/></button>
             </div>
-            <div className={isHidden ? "lg:space-x-6 animate__animated animate__fadeIn" : "hidden lg:block lg:space-x-6"}>
+            <div className={isHidden ? "lg:space-x-6 animate__animated animate__fadeIn animate__faster" : "hidden lg:block lg:space-x-6"}>
                 <Link href="/about" passHref><button className="navButton">About</button></Link>
                 <Link href="/projects" passHref><button className="navButton">My projects</button></Link>
                 <Link href="/contact" passHref><button className="navButton">Contact</button></Link>
