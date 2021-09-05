@@ -6,6 +6,7 @@ class CustomDocument extends Document {
             <Html lang="en">
                 <Head>
                     <meta name="description" content="big floppa my beloved" />
+                    <meta name="og:description" content="big floppa my beloved" />
                     <meta name="theme-color" content="#1a0936" />
                     <meta property="og:title" content="sovietufo.tk" />
                     <meta property="og:type" content="website" />
