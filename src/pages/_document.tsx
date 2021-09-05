@@ -9,6 +9,7 @@ class CustomDocument extends Document {
                     <meta name="theme-color" content="#1a0936" />
                     <meta property="og:title" content="sovietufo.tk" />
                     <meta property="og:type" content="website" />
+                    <meta property="og:image" content="../../public/images/flop.jpg" />
                 </Head>
                 <body>
                     <Main />
