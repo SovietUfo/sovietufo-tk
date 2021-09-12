@@ -6,7 +6,11 @@ export default function particleContainer() {
         params={{
             "particles": {
                 "number": {
-                    "value": 50
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 900
+                    }
                 },
                 "size": {
                     "value": 0
