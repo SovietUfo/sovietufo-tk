@@ -21,7 +21,4 @@
     p {
         @apply text-center text-xl text-white
     }
-    main {
-        @apply w-2/3 self-center rounded lg:bg-purple-900 py-6
-    }
 }

@@ -1,7 +1,11 @@
 import {NextPageContext} from "next"
 import {useEffect} from "react"
 
-export default function Error({statusCode}) {
+interface Props {
+    statusCode: number
+}
+
+export default function Error({statusCode}: Props) {
 
     useEffect(() => {
         document.title = "Error"
