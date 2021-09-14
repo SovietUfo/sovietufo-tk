@@ -1,4 +1,4 @@
-import 'tailwindcss/tailwind.css'
+import "tailwindcss/tailwind.css"
 import "../styles/global.css"
 import Layout from "../components/layout"
 import ParticleContainer from "../components/particleContainer"
@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <Component {...pageProps} />
             </Layout>
         </>
-  )
+    )
 }
 
 export default MyApp
