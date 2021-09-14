@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image"
 import {useEffect} from "react"
 
 export default function Home() {
@@ -14,5 +14,5 @@ export default function Home() {
                 <Image src="/images/floppa.jpg" alt="" height="300" width="1000" className="rounded-lg"/>
             </div>
         </>
-  )
+    )
 }
