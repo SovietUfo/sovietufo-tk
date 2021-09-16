@@ -28,10 +28,6 @@ export default function particleContainer() {
                     }
                 }
             }} 
-            style={{
-                position: "absolute",
-                width: "100vw",
-                height: "100vw",
-            }}/>
+            className="absolute w-screen h-screen"/>
     )
 }
