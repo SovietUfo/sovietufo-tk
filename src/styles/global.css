@@ -21,4 +21,13 @@
     p {
         @apply text-center text-xl text-white
     }
+    ::-webkit-scrollbar {
+        @apply w-2
+    }
+    ::-webkit-scrollbar-track {
+        @apply bg-none
+    }
+    ::-webkit-scrollbar-thumb {
+        @apply bg-indigo-700 rounded hover:bg-indigo-800
+    }
 }

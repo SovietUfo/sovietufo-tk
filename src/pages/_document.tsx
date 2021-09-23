@@ -12,7 +12,7 @@ class CustomDocument extends Document {
                     <meta property="og:type" content="website" />
                     <meta property="og:image" content="https://media.discordapp.net/attachments/683671445318008873/884153738699345980/flop.jpg?width=687&height=676" />
                 </Head>
-                <body className="bg-[#3f1680]">
+                <body className="bg-[#3f1680] overflow-x-hidden">
                     <Main />
                     <NextScript />
                 </body>

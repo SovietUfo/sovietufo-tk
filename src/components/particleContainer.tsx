@@ -16,7 +16,8 @@ export default function particleContainer() {
                         "value": 0
                     },
                     "line_linked": {
-                        "color": "#1a0936"
+                        "color": "#1a0936",
+                        "opacity": 0.2
                     }
                 },
                 "interactivity": {
