@@ -22,7 +22,7 @@ export default function About() {
             <h1 className="mb-4">hi</h1>
             <p>I&apos;m a {getAge()} years old sigma male from poland that&apos;s trying to be good in development.<br />{/*jebac css  */}<br />
             For programming I use WSL 2 with Ubuntu as my OS and VS code as my text editor. <br />
-            Currently my fav language is Rust but i also like doing stuff in C#, python and typescript</p>
+            Currently my fav language is <a title="funny crab language" href="https://www.rust-lang.org/">🦀Rust</a> but i also like doing stuff in <a href="https://dotnet.microsoft.com/languages/csharp">C#</a>, <a href="https://python.org">Python</a> and <a href="https://www.typescriptlang.org/">Typescript</a></p>
         </>
     )
 }
