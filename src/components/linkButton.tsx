@@ -1,13 +1,15 @@
+import React from "react"
+
 interface Props {
-    url: string,
-    bg: string,
-    text: string
+    url?: string,
+    text: string,
+    icon?: React.ReactNode
 }
 
 export default function LinkButton(props: Props) {
     return (
         <a href={props.url}>
-            <button className={`p-2 rounded hover:text-[${props.bg}] bg-[#2a0f57]`}>{props.text}</button>
+            <button className="p-2 rounded bg-[#2a0f57] text-2xl">{props.icon}{props.text}</button>
         </a>
     )
 }

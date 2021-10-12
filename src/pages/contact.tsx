@@ -1,4 +1,5 @@
 import {useEffect} from "react"
+import {FaGithub, FaTwitter, FaSpotify, FaDiscord, FaLastfm} from "react-icons/fa"
 
 import LinkButton from "../components/linkButton"
 
@@ -7,16 +8,16 @@ export default function Contact() {
     useEffect(() => {
         document.title = "Contact"
     })
-
+    
     return (
         <>
             <h1>you can find me on:</h1>
             <ul>
-                <li><LinkButton bg="#333" url="https://github.com/SovietUfo" text="github"/></li>
-                <li><LinkButton bg="#1DA1F2" url="https://twitter.com/sovietufo" text="twitter"/></li>
-                <li><LinkButton bg="#5865F2" url="https://discordapp.com/users/590956498495209474/" text="discord"/></li>
-                <li><LinkButton bg="#1DB954" url="https://open.spotify.com/user/arcadeaddicted" text="spotify"/></li>
-                <li><LinkButton bg="#D51007" url="https://last.fm/user/SovietUfo" text="last.fm"/></li>
+                <li><LinkButton url="https://github.com/SovietUfo" text="github" icon={<FaGithub className="inline mr-1 mb-1"/>}/></li>
+                <li><LinkButton url="https://twitter.com/sovietufo" text="twitter" icon={<FaTwitter className="inline mr-1 mb-1"/>}/></li>
+                <li><LinkButton url="https://discordapp.com/users/590956498495209474/" text="discord" icon={<FaDiscord className="inline mr-1 mb-1"/>}/></li>
+                <li><LinkButton url="https://open.spotify.com/user/arcadeaddicted" text="spotify" icon={<FaSpotify className="inline mr-1 mb-1"/>}/></li>
+                <li><LinkButton url="https://last.fm/user/SovietUfo" text="last.fm" icon={<FaLastfm className="inline mr-1 mb-1"/>}/></li>
             </ul>
         </>
     )
