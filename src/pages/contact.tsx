@@ -1,5 +1,6 @@
 import {useEffect} from "react"
-import {FaSpotify} from "react-icons/fa"
+
+import LinkButton from "../components/linkButton"
 
 export default function Contact() {
 
@@ -11,11 +12,11 @@ export default function Contact() {
         <>
             <h1>you can find me on:</h1>
             <ul>
-                <li><a href="https://github.com/SovietUfo" className="hover:text-[#333]">GitHub</a></li>
-                <li><a href="https://twitter.com/sovietufo" className="hover:text-[#1DA1F2]">Twitter</a></li>
-                <li><a href="https://discordapp.com/users/590956498495209474/" className="hover:text-[#5865F2]">Discord</a></li>
-                <li><a href="https://open.spotify.com/user/arcadeaddicted?si=622673af0d9f4862" className="hover:text-[#1DB954]">Spotify</a></li>
-                <li><a href="https://www.last.fm/user/SovietUfo" className="hover:text-[#D51007]">last.fm</a></li>
+                <li><LinkButton bg="#333" url="https://github.com/SovietUfo" text="github"/></li>
+                <li><LinkButton bg="#1DA1F2" url="https://twitter.com/sovietufo" text="twitter"/></li>
+                <li><LinkButton bg="#5865F2" url="https://discordapp.com/users/590956498495209474/" text="discord"/></li>
+                <li><LinkButton bg="#1DB954" url="https://open.spotify.com/user/arcadeaddicted" text="spotify"/></li>
+                <li><LinkButton bg="#D51007" url="https://last.fm/user/SovietUfo" text="last.fm"/></li>
             </ul>
         </>
     )
