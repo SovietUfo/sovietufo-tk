@@ -20,9 +20,9 @@ export default function About() {
                 <Image src="/images/cta.jpg" width="150" height="150" alt="" className="rounded-lg"/>
             </div>
             <h1 className="mb-4">hi</h1>
-            <p>I&apos;m a {getAge()} years old sigma male from poland that&apos;s trying to be good in development.<br />{/*jebac css  */}<br />
+            <p>I&apos;m a {getAge()} years old sigma male from poland that&apos;s trying to be good in development.<div className="mb-6"/>
             For programming I use WSL 2 with Ubuntu as my OS and VS code as my text editor. <br />
-            Currently my fav language is <a title="funny crab language" href="https://www.rust-lang.org/">🦀Rust</a> but i also like doing stuff in <a href="https://dotnet.microsoft.com/languages/csharp">C#</a>, <a href="https://python.org">Python</a> and <a href="https://www.typescriptlang.org/">Typescript</a></p>
+            Currently my fav language is <span title="funny crab language">🦀Rust</span> but i also like doing stuff in C#, Python and Typescript</p>
         </>
     )
 }
