@@ -1,4 +1,5 @@
 import {useEffect} from "react"
+import Image from "next/image"
 import {FaGithub, FaTwitter, FaSpotify, FaDiscord, FaLastfm} from "react-icons/fa"
 
 import LinkButton from "../components/linkButton"
@@ -11,6 +12,9 @@ export default function Contact() {
     
     return (
         <>
+            <div className="flex justify-center mx-4 my-4">
+                <Image src="/images/shnozle.png" width="150" height="150" className="rounded-lg"/>
+            </div>
             <h1>you can contact me on:</h1>
             <ul>
                 <li><LinkButton url="https://twitter.com/sovietufo" text="twitter" icon={<FaTwitter className="inline mr-1 mb-1"/>}/></li>
