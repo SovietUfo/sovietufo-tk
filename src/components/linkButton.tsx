@@ -9,7 +9,7 @@ interface Props {
 export default function LinkButton(props: Props) {
     return (
         <a href={props.url}>
-            <button className="p-2 rounded bg-[#2a0f57] text-2xl">{props.icon}{props.text}</button>
+            <button className="p-2 rounded text-2xl">{props.icon}{props.text}</button>
         </a>
     )
 }

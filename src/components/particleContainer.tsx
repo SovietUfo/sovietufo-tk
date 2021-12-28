@@ -16,18 +16,18 @@ export default function particleContainer() {
                         "value": 0
                     },
                     "line_linked": {
-                        "color": "#1a0936",
-                        "opacity": 0.2
+                        "color": "#2E3440",
+                        "opacity": 0.1
                     }
                 },
-                "interactivity": {
+                /*"interactivity": {
                     "events": {
                         "onhover": {
                             "enable": true,
                             "mode": "grab"
                         }
                     }
-                }
+                } */
             }} 
             className="absolute w-screen h-screen"/>
     )

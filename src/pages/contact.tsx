@@ -13,7 +13,7 @@ export default function Contact() {
     return (
         <>
             <div className="flex justify-center mx-4 my-4">
-                <Image src="/images/shnozle.png" width="150" height="150" className="rounded-lg"/>
+                <Image src="/images/shnozle.png" width="150" height="150" className="rounded-lg" alt=""/>
             </div>
             <h1>you can contact me on:</h1>
             <ul>

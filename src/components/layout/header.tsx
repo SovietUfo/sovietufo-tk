@@ -13,7 +13,7 @@ export default function Header() {
     }
 
     return (
-        <nav className="lg:flex items-center bg-[#1a0936] lg:p-4 sticky justify-between">
+        <nav className="lg:flex items-center bg-[#2E3440] lg:p-4 sticky justify-between">
             <div className="flex items-center flex-shrink-0 ml-3 lg:ml-0 justify-between">
                 <div>
                     <Image src="/favicon.ico" width="40" height="40" alt=""></Image>

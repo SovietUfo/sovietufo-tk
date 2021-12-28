@@ -4,30 +4,21 @@
 
 @layer base {
     .navButton {
-        @apply lg:px-3 py-2 text-lg bg-[#1a0936] lg:bg-indigo-700 lg:border lg:hover:border-opacity-20 text-purple-700 lg:text-purple-300 lg:rounded hover:bg-purple-700 lg:hover:bg-opacity-0 hover:text-[#1a0936] lg:hover:text-indigo-700 transition flex-shrink-0 w-full lg:w-auto
+        @apply lg:px-3 py-2 text-lg bg-[#2E3440] lg:bg-[#4C566A] lg:border lg:hover:border-opacity-20 text-[#D8DEE9] lg:text-[#D8DEE9] lg:rounded hover:bg-[#3B4252] lg:hover:bg-opacity-0 hover:text-[#5E81AC] lg:hover:text-[#5E81AC] lg:hover:border-[#81A1C1] transition flex-shrink-0 w-full lg:w-auto
     }
     h1 {
-        @apply text-center text-white text-3xl
+        @apply text-center text-[#D8DEE9] text-3xl
     }
     a {
-        @apply hover:text-blue-500 hover:underline transition
+        @apply hover:text-[#5E81AC] hover:underline transition
     }
     ul {
-        @apply text-center text-white text-2xl
+        @apply text-center text-[#D8DEE9] text-2xl
     }
     li {
         @apply my-4
     }
     p {
-        @apply text-center text-xl text-white
-    }
-    ::-webkit-scrollbar {
-        @apply w-2
-    }
-    ::-webkit-scrollbar-track {
-        @apply bg-none
-    }
-    ::-webkit-scrollbar-thumb {
-        @apply bg-indigo-700 rounded hover:bg-indigo-800
+        @apply text-center text-xl text-[#D8DEE9]
     }
 }
